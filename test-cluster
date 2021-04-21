@@ -1,0 +1,17 @@
+#!/bin/sh
+kind delete cluster 
+kind create cluster
+kubectl cluster-info --context kind-kind
+kubectl apply --filename https://storage.googleapis.com/tekton-releases/pipeline/latest/release.yaml && sleep 10
+kubectl wait --for=condition=ready pod -l app=tekton-pipelines-controller -n tekton-pipelines --timeout=50s
+# kubectl get pods -n tekton-pipelines
+# kubectl apply -f ~/tekton/task-hello.yaml
+# kubectl create -f ~/tekton/taskRun-hello.yaml
+# tkn taskrun logs --last -f
+kubectl create secret docker-registry dockercreds \
+  --docker-username=cjineson \
+  --docker-password=xxx \
+  --docker-email=chrisineson@gmail.com
+sleep 30
+kubectl apply -f kaniko-build.yaml
+tkn taskrun logs --last -f

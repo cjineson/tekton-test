@@ -1,0 +1,86 @@
+<HTML><HEAD>
+	<TITLE>Access Denied - Archive File</TITLE>
+	<meta http-equiv="Content-Type" content="text/html; charset-ISO-8859-1" />
+	</HEAD>
+	<body style="background-color:white;">
+	<style type="text/css" media="screen">
+	body 	{
+			margin:50px 0px;
+			padding:0px;
+			text-align:center;
+		}
+
+	#content {
+			width:890px;
+			margin:0px auto;
+			text-align:center;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 14px;
+			color: #666;
+			padding:15px;
+			border:3px outset #8ac240;
+			background-color:#fff;
+		 }
+
+	table {
+		table-layout:fixed;
+		align:center;
+	        width:100%;
+		font-size: 14px;
+		word-break:break-all;
+		color: #666;
+
+		text-align:center;
+	      }
+
+	.details-column-left {
+				text-align:right;
+				padding-right:0px;
+				color: #666;
+			     }
+
+	.details-column-right {
+				text-align:left;
+				padding-left:0px;
+				color: #528505;
+			      }
+
+	</style>
+	<body>
+	<div id=content>
+	<img src=http://lbg.intranet.group/common_int/images/LBG_intranet1.jpg></p>
+	<FONT face="Helvetica" COLOR="#006A4D" SIZE=4>
+	<h1 align="center">Website Access Restriction</h1>
+	</FONT>
+	<hr>
+	<FONT face="Helvetica" COLOR="#000000" SIZE=4>
+	<table>
+	<P><STRONG><FONT color=#ff0000 size=4 face=Verdana>Warning: this website has been blocked as it contains content that may be harmful to your computer or you are attempting a download data that may compromise the groups data and / or systems.</FONT></STRONG> <BR></P>
+<br>
+Please refer to <a href ="https://lloydsbanking.sharepoint.com/sites/ITEC2/Information%20Security%20Standards/Acceptable_Usage_Responsibilities.pdf">Group Acceptable Usage Policy</a> for further information.
+			<p></p>
+			<h2 align="center">What If I Need Access?</h2>
+For <b>ONE-OFF</b> access to this file, please raise a <a href ="https://lbg.service-now.com/it_lbg?id=lbg_sc_cat_item&sys_id=66df145ddba82740695ef2eb0c9619c1">One-Off Downloads/Temporary URL Access</a> request.
+<br>
+<br>
+If you need access to download on a regular basis, please request for <a href ="https://lbg.service-now.com/it_lbg?id=lbg_sc_cat_item&sys_id=67a19af4dbec6340695ef2eb0c961913">Permanent Access</a>.
+<p>
+<br>
+<FONT face="Helvetica" COLOR="black" SIZE=4>
+<b>Please include the information below in the IT@LBG request.</b>
+<br>
+<P><b>Reason:</b> <b>Forbidden file type!</b> An attempt was made to download a <b>Archive file type. </b> </b>
+<br>
+<br>
+	<b>URL:</b> https:&#x2F;&#x2F;github-releases.githubusercontent.com&#x2F;181939372&#x2F;022cdd00-9c0b-11eb-98c2-d949e3782f38?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20210421%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20210421T100304Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=0e462f5879a511f5780e196487f38f6890ccfff269b31f29d3d92f00000824e0&amp;X-Amz-SignedHeaders=host&amp;actor_id=0&amp;key_id=0&amp;repo_id=181939372&amp;response-content-disposition=attachment%3B%20filename%3Dtkn_0.17.2_Darwin_x86_64.tar.gz&amp;response-content-type=application%2Foctet-stream
+<br>
+	<b>Content Type:</b> application&#x2F;octet-stream
+<br>
+<br>
+	<b>Note:</b> For Windows 10 devices, in the Transaction ID field please type Windows 10
+</FONT>
+	</FONT>
+	</table>
+	</div>
+	</body>
+	</html>
